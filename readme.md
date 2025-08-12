@@ -1,4 +1,4 @@
-# AI Document Compliance Checker (LangChain/Gemini Edition)
+# Compliance Validator
 
 This project is an AI-powered system that processes document files (PDF or Word) and checks their compliance against standard English writing guidelines. It provides a detailed report of violations and can generate a corrected version of the document.
 
