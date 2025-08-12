@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./app:/code/app
+      - ./temp_uploads:/code/temp_uploads
+      - ./modified_docs:/code/modified_docs
+    env_file:
+      - .env
+    container_name: compliance_checker_api_langchain

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+google-generativeai
+langchain
+langchain-google-genai
+language-tool-python
+PyMuPDF
+python-docx
+pytest
+httpx
